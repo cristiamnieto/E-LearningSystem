@@ -6,13 +6,6 @@ if (isset($_SESSION['StudentID'])) {
 }
 ?> 
   
-
-<style type="text/css">
-  body {
-    background-color: #fff;
-  }
-</style>
-
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,13 +14,12 @@ if (isset($_SESSION['StudentID'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->  
   <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-
 <link href="<?php echo web_root; ?>css/bootstrap.min.css" rel="stylesheet"> 
 <link href="<?php echo web_root; ?>fonts/font-awesome.min.css" rel="stylesheet" media="screen">  
- 
 <!--===============================================================================================-->
   <link rel="stylesheet" type="text/css" href="<?php echo web_root; ?>css/util.css">
   <link rel="stylesheet" type="text/css" href="<?php echo web_root; ?>css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/newstyle.css">
 <!--===============================================================================================-->
 </head>
 <body>
@@ -36,11 +28,11 @@ if (isset($_SESSION['StudentID'])) {
     <div class="container-login100">
            <?php check_message(); ?>
       <div class="wrap-login100">
-        <div class="login100-pic js-tilt" data-tilte>
-          <img src="<?php echo web_root; ?>images/janobe.png" alt="IMG">
+        <div class="login100-pic" data-tilte>
+          <img src="images/Poli.png"  alt="IMG">
         </div>
          
-        <form class="login100-form validate-form" action="" method="POST"> 
+        <form class="login100-form" action="" method="POST"> 
           <span class="login100-form-title">
             Bienvenidos al politécnico Internacional
           </span>
@@ -67,10 +59,9 @@ if (isset($_SESSION['StudentID'])) {
             </button>
           </div>
  
-          <div class="text-center p-t-136">
+          <div class="text-center p-t-136" id="crear">
             <a class="txt2" href="register.php">
-              Crear una cuenta
-              <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+              CREAR CUENTA         
             </a>
           </div>
         </form>
