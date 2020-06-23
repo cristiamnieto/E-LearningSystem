@@ -425,6 +425,13 @@ nav select {
 	z-index:1000;
 	margin-top:0px;
 }
+.container{
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
 
 /* intro */
 
@@ -1178,9 +1185,7 @@ article.last-post .content a {
 	color:#fff;
 	font-weight:bold;
 }
-article.last-post h4 {
 
-}
 
 article.last-post iframe{
 	width:100%;
@@ -1746,9 +1751,6 @@ ul.nav-tabs { margin: 0 !important; border: none; }
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-}
-.breadcrumb > li {
-
 }
 
 .breadcrumb.custom {
