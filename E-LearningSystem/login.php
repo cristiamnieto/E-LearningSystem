@@ -34,7 +34,7 @@ if (isset($_SESSION['StudentID'])) {
          
         <form class="login100-form" action="" method="POST"> 
           <span class="login100-form-title">
-            Bienvenidos al politécnico Internacional
+            Bienvenidos al POLITÉCNICO INTERNACIONAL
           </span>
 
           <div class="wrap-input100 validate-input" >
