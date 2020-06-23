@@ -11,8 +11,8 @@
 .limiter .container-login100 .wrap-login100{
     top:0;
     left:0;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     background: rgba(0, 0, 0, 0.6);
 
     display: flex;
@@ -49,9 +49,14 @@
 }
 .limiter .container-login100 .wrap-login100 .login100-form .login100-form-title {
     color: #fff;
+    font-size: 30px;
+
 }
 .limiter .container-login100 .wrap-login100 .login100-pic img{
     width: 100%;
     margin-bottom: 150px;
     filter: hue-rotate(30deg) brightness(500%);
+}
+.limiter .container-login100 .wrap-login100 .login100-pic img:hover{
+    filter: hue-rotate(10deg) brightness(500%);
 }
