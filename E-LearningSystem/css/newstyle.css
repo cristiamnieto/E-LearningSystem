@@ -1,3 +1,4 @@
+/** Login **/
 .limiter .container-login100 {
     position: relative;
     width: 100%;
@@ -53,10 +54,46 @@
 
 }
 .limiter .container-login100 .wrap-login100 .login100-pic img{
-    width: 100%;
+    
     margin-bottom: 150px;
     filter: hue-rotate(30deg) brightness(500%);
 }
 .limiter .container-login100 .wrap-login100 .login100-pic img:hover{
     filter: hue-rotate(10deg) brightness(500%);
 }
+/** Login **/
+
+/** Descargas **/
+.contenedor{
+    background-image: url(../images/fondo.png);
+    height: 80vh;
+    display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.contenedor .col-lg-6{
+    margin-top: -100px;
+}
+.col-lg-6{
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .5);
+    height: 200px;
+}
+#video{
+    margin-top:-150px;
+}
+/** Descargas **/
+
+/** Lecciones **/
+.lesson{
+    background-image: url(../images/fondo.png);
+    height: 80vh;
+    display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+/** Lecciones **/
