@@ -158,7 +158,7 @@ h6 {
    #BACKGROUND
    ========================================================================== */
 .bg-blue {
-  background: #2c6ed5;
+  background: #aec4e9;
 }
 
 /* ==========================================================================
@@ -185,6 +185,7 @@ h6 {
 
 .wrapper--w680 {
   max-width: 680px;
+  
 }
 
 /* ==========================================================================
@@ -211,13 +212,44 @@ h6 {
   border-radius: 3px;
 }
 
-.btn--green {
-  background: #57b846;
+.btn--blue {
+  background: #0fa4be;
 }
 
-.btn--green:hover {
-  background: #4dae3c;
+.btn--blue:hover {
+  background: #0fa4be;
 }
+
+.btn2 {
+  float: right;
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 25px;
+  cursor: pointer;
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  color: rgb(255, 255, 255);
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.btn2--radius {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.btn2--blue {
+  background: #0fa4be;
+}
+
+.btn2--blue:hover {
+  background: #0fa4be;
+}
+
 
 /* ==========================================================================
    #DATE PICKER
@@ -432,23 +464,28 @@ input {
   -moz-border-radius: 3px;
   border-radius: 3px;
   background: #fff;
+  border: 10px;
 }
 
 .card-1 {
   -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  
 }
 
 .card-1 .card-heading {
-  background: url("../images/bg-head-02.jpg") center center/cover no-repeat;
+  background: url("../images/poli-head..jpg") center center/cover no-repeat;
   padding-top: 210px;
+ 
+  
 }
 
 .card-1 .card-body {
   padding: 0 90px;
   padding-top: 55px;
   padding-bottom: 65px;
+  
 }
 
 @media (max-width: 767px) {
