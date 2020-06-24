@@ -66,8 +66,10 @@ if (isset($_SESSION['StudentID'])) {
                       
                         <div class="p-t-20">
                             <button class="btn btn--radius btn--blue" type="submit" name="btnRegister">Submit</button>                                                         
-                            <button class="btn2 btn2--radius btn2--blue" type="login" name="btnBack"><a style="text-decoration:none" href="login.php">Back to login</a></button>
+                            <button class="btn2 btn2--radius btn2--blue" type="login" name="btnBack"><a style="text-decoration:none" href="login.php"><font color="white">Back to login</font></a></button>
                         </div>
+ 
+
 
                     </form>
                 </div>
