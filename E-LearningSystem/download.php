@@ -60,3 +60,9 @@
 		</div>
 	</div>
 </div>
+
+<footer class="footer-1">
+	<div class="footer-text">
+		<p>&copy: Alejandro Vásquez - 2020 // Todos los derechos reservados</p>
+	</div>
+</footer>

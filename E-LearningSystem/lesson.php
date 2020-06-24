@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/newstyle.css">
 
-<div class="leccion" >
+<div class="leccion">
 	<div class="col-lg-6" id="col-lg-6">
 		<h3>PDF</h3>
 		<div class="table-responsive" id="table-responsive">
@@ -10,7 +10,7 @@
 				<thead>
 					<th width="2%">#</th>
 					<th>Chapter</th>
-					<th>Title</th> 
+					<th>Title</th>
 					<th width="2%">Action</th>
 				</thead>
 				<tbody>
@@ -60,3 +60,9 @@
 		</div>
 	</div>
 </div>
+
+<footer class="footer-1">
+    <div class="footer-text">
+      <p>&copy: Grupo Mecánica Dental - 2020 || Todos los derechos reservados</p>
+    </div>
+</footer>
