@@ -3,9 +3,9 @@
 <link rel="stylesheet" type="text/css" href="css/newstyle.css">
 
 <div class="contenedor">
-	<div class="col-lg-6">
+	<div class="col-lg-6" >
 		<h3>PDF</h3>
-		<div class="table-responsive">
+		<div class="table-responsive" >
 			<table id="example" class="table table-bordered">
 				<thead>
 					<th width="2%">#</th>

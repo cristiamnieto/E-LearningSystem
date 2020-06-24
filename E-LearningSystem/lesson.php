@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/newstyle.css">
 
-<div class="leccion">
+<div class="leccion" >
 	<div class="col-lg-6" id="col-lg-6">
 		<h3>PDF</h3>
 		<div class="table-responsive" id="table-responsive">
