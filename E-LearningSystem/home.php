@@ -13,7 +13,7 @@
       Educación Superior constituida como una fundación privada sin ánimo de lucro, la cual <strong>contribuye a la
         formación integral de la juventud colombiana, para hacer realidad sus sueños a través de la empleabilidad o el
         emprendimiento.</strong></p>
-    <p><strong>Es una Institución comprometida con el desarrollo laboral</strong> de sus egresados y es reconocida por
+    <p><strong>Es unatituc Insión comprometida con el desarrollo laboral</strong> de sus egresados y es reconocida por
       las destacadas competencias prácticas y por los altos estándares de calidad y servicio que desarrolla en sus
       estudiantes; los cuales tienen una gran acogida en el sector productivo.</p>
   </div>
@@ -47,8 +47,18 @@
     </ul>
   </div>
 </div>
-  <footer class="footer-1">
-    <div class="footer-text">
-      <p>&copy: Grupo Mecánica Dental - 2020 || Todos los derechos reservados</p>
-    </div>
-  </footer>
+
+<footer class="footer-1">
+<div class="footer-content">
+	<div class="footer-text1">
+		<p>&copy: Grupo Mecánica dental - 2020 // Todos los derechos reservados</p>
+	</div>
+
+	<div class="redes-sociales">
+		<h1>Sigános en redes Sociales y en nuestra página web<h1>
+		<a href="https://es-la.facebook.com/politecnicointernacionalcolombia/"> <img src="images/facebook.png" alt="" ></a>
+		<a href="https://twitter.com/PolitecnicoIn?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="images/twitter.png" alt="" ></a>
+		<a href="https://politecnicointernacional.edu.co/sw/es/home"><img src="images/Poli.png" alt="" ></a>
+	</div>
+</div>
+</foter>
