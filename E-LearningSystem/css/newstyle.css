@@ -143,16 +143,29 @@
 /** Excercises **/
 
 /** Footer **/
-.footer-1 .footer-text{
+.footer-1{
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 120px;
     background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
     color: #fff;
-
-    display: flex;
-    justify-content: center;
+}
+.footer-1 .footer-content {
+    width: 90%;
+    display: flex; 
+    justify-content: space-around;
     align-items: center;
-
+    flex-direction: row-reverse;
+    
+}
+.footer-1 .footer-content h1{
+    font-size: 15px;
+}
+.footer-1 .footer-content .redes-sociales img{
+    width: 60px; 
+    height: 60px;
+    cursor: pointer;
+    padding-left: 10px;
+    filter: hue-rotate(10deg) brightness(500%);
 }
 /** Footer**/
