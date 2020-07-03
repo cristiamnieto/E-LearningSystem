@@ -67,16 +67,19 @@
                   <li>
                     <a href="index.php"></i> ¿QUIÉNES SOMOS?</a>
                     <ul class="submenu">
-                      <li><a href="#"> La institución </a></li>
-                      <li><a href="#"> Nuestras sedes </a></li>
-                      <li><a href="#"> Responsabilidad social </a>
-                        <ul class="submenu">
-                          <li><a href="#"> La institución </a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#"> Derechos pecuniarios </a></li>
-                      <li><a href="#"> Reglamento y estatus </a></li>
-                      <li><a href="#"> Régimen tributario especial</a></li>
+                      <li><a href="#"> Misión </a></li>
+                      <li><a href="#"> Visión </a></li>
+                      <li><a href="#"> Objetivos de Calidad </a></li>                                        
+                      <li><a href="#"> Sedes </a>
+                          <ul class="submenu">
+                            <li><a href="#"> Sede Principal </a></li>
+                            <li><a href="#"> Sede Sur </a></li>
+                            <li><a href="#"> Sede Calle 80 </a></li>
+                            <li><a href="#"> Sede Kennedy </a></li>
+                            <li><a href="#"> Sede Idiomas </a></li>
+                            <li><a href="#"> Politécnico Virtual </a></li>
+                          </ul>
+                      </li>                     
                     </ul>
                   </li>
                   <li>
