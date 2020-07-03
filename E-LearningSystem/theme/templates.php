@@ -61,11 +61,11 @@
                 <ul class="nav topnav">
 
                   <li class="active">
-                    <a href="index.php"> INICIO </a>
+                    <a href="#"> INICIO </a>
                   </li>
 
                   <li>
-                    <a href="<?php echo web_root; ?>"></i> ¿QUIÉNES SOMOS?</a>
+                    <a href="index.php"></i> ¿QUIÉNES SOMOS?</a>
                     <ul class="submenu">
                       <li><a href="#"> La institución </a></li>
                       <li><a href="#"> Nuestras sedes </a></li>
