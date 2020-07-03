@@ -102,33 +102,32 @@ a i:hover {
 
 /* logo */
 header .navbar .logo {
-	float:right;
-  padding: 0;
-  
+	float:right;	
 }
 
 /* navigation */
 header .navbar {
-	padding:30px 0 25px;
+	background: #000c3b;
+	
 }
 
 .navbar .nav {
-	margin:0;
+	margin:0;	
 }
 
 .navbar ul li {
-	margin-right:20px;
+	margin-left:0px;
+	bottom: 0;
 	
 }
 
 .navbar ul li li {
-	margin-right:20px;
+	margin-right:0px;
 }
 
 .navbar .nav li a:hover {
-	background:#349cdc;
-	color:#fff;
-	margin: auto;
+	background:#fff;
+	color: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);;
 	border-radius: 24px;
 }
 
@@ -161,9 +160,10 @@ header .navbar {
 
 .navbar .nav > li > a {
   float: none;
-  font-size:13px;
+  font-size:12px;
   padding: 5px 10px 5px 10px;
-  color: #777777;
+  margin: 8px; 
+  color: #fff;
   text-decoration: none;
   text-shadow: none;
   font-weight:700;
