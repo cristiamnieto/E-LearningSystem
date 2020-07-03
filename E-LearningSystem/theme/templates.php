@@ -61,7 +61,7 @@
                 <ul class="nav topnav">
 
                   <li class="active">
-                    <a href="index.php"> Inicio </a>
+                    <a href="index.php"> INICIO </a>
                   </li>
 
                   <li >
