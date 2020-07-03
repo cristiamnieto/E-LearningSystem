@@ -64,15 +64,15 @@
                     <a href="index.php"> INICIO </a>
                   </li>
 
-                  <li >
-                    <a href="<?php echo web_root; ?>index.php?q=lesson"></i> ¿QUIÉNES SOMOS?</a>
+                  <li>
+                    <a href="<?php echo web_root; ?>"></i> ¿QUIÉNES SOMOS?</a>
                     <ul class="submenu">
                       <li><a href="#"> La institución </a></li>
                       <li><a href="#"> Nuestras sedes </a></li>
                       <li><a href="#"> Responsabilidad social </a>
-                          <ul class="submenu">
-                            <li><a href="#"> La institución </a></li>
-                          </ul>
+                        <ul class="submenu">
+                          <li><a href="#"> La institución </a></li>
+                        </ul>
                       </li>
                       <li><a href="#"> Derechos pecuniarios </a></li>
                       <li><a href="#"> Reglamento y estatus </a></li>
@@ -80,18 +80,38 @@
                     </ul>
                   </li>
                   <li>
-                    <a href="<?php echo web_root; ?>index.php?q=exercises"></i> INVESTIGACIÓN</a>
+                    <a href="<?php echo web_root; ?>"></i> INVESTIGACIÓN</a>
                   </li>
                   <li>
-                    <a href="<?php echo web_root; ?>index.php?q=download"></i> ESTUDIANTES</a>
+                    <a href="<?php echo web_root; ?>index.php?q=exercises"></i> ESTUDIANTES</a>
                     <ul class="submenu">
                       <li><a href="#"> Portal Estudiantes </a></li>
                       <li><a href="#"> Correo Intitucional </a></li>
-                      <li><a href="#"> Servicio al Estudiante </a></li>
+                      <li><a href="#"> Servicio al Estudiante </a>
+                            <ul class="submenu">
+                              <li><a href="#"> Calendario académico </a></li>
+                              <li><a href="#"> Matrícula Antigua </a></li>
+                              <li><a href="#"> Inducciones </a></li>
+                            </ul>
+                      </li>      
                       <li><a href="#"> Campus Virtual </a></li>
                       <li><a href="#"> Centro Virtual de Aprendizaje </a></li>
-                      <li><a href="#"> Bienestar</a></li>
-                      <li><a href="#"> Grados</a></li>
+                      <li><a href="#"> Bienestar</a>
+                            <ul class="submenu">
+                              <li><a href="#"> Apoyo estudiante </a></li>
+                              <li><a href="#"> Becas </a></li>
+                              <li><a href="#"> Cultura </a></li>
+                              <li><a href="#"> Deportes </a></li>
+                              <li><a href="#"> Salud </a></li>
+                            </ul>
+                      </li>     
+                      <li><a href="#"> Grados</a>
+                            <ul class="submenu">
+                              <li><a href="#"> Opciones </a></li>
+                              <li><a href="#"> Inscripción </a></li>
+                              <li><a href="#"> Ceremonias </a></li>
+                            </ul>
+                      </li>     
                       <li><a href="#"> Bolsa de Empleos Estudiantes</a></li>
                       <li><a href="#"> Pagos Inteligentes</a></li>
                       <li><a href="#"> PQR</a></li>
@@ -102,10 +122,10 @@
                     </ul>
                   </li>
                   <li>
-                    <a href="<?php echo web_root; ?>index.php?q=download"></i> DOCENTES</a>
+                    <a href="<?php echo web_root; ?>"></i> DOCENTES</a>
                   </li>
                   <li>
-                    <a href="<?php echo web_root; ?>index.php?q=download"></i> ADMINISTRATIVOS</a>
+                    <a href="<?php echo web_root; ?>"></i> ADMINISTRATIVOS</a>
                   </li>
                   <li>
                     <a href="logout.php"></i> SALIR</a>
