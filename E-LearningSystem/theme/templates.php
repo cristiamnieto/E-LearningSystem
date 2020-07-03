@@ -50,21 +50,30 @@
             <!-- top menu -->
             <div class="navigation">
               <nav>
-                <ul class="nav topnav">
-                  <li class="active">
-                    <a href="index.php"><i class="icon-home"></i> Inicio </a>
+                <div class="logo-header">
+                    <img src="images/Logo Header.png ">
+                </div>
+                <ul class="nav topnav">                 
+                  <li class="active">                   
+                    <a href="index.php"></i> Inicio </a>
                   </li>
                   <li>
-                    <a href="<?php echo web_root; ?>index.php?q=lesson"><i class="icon-list-alt"></i> Leccion</a>
+                    <a href="<?php echo web_root; ?>index.php?q=lesson"></i> ¿QUIÉNES SOMOS</a>
                   </li>
                   <li>
-                    <a href="<?php echo web_root; ?>index.php?q=exercises"><i class="icon-list-alt"></i> Ejercicios</a>
+                    <a href="<?php echo web_root; ?>index.php?q=exercises"></i> INVESTIGACIÓN</a>
                   </li>
                   <li>
-                    <a href="<?php echo web_root; ?>index.php?q=download"><i class="icon-download"></i> Descargas</a>
+                    <a href="<?php echo web_root; ?>index.php?q=download"></i> ESTUDIANTES</a>
                   </li> 
                   <li>
-                    <a href="logout.php"><i class="icon-logout"></i> Salir</a>
+                    <a href="<?php echo web_root; ?>index.php?q=download"></i> DOCENTES</a>
+                  </li> 
+                  <li>
+                    <a href="<?php echo web_root; ?>index.php?q=download"></i> ADMINISTRATIVOS</a>
+                  </li> 
+                  <li>
+                    <a href="logout.php"></i> SALIR</a>
                   </li>
                 </ul>
               </nav>
