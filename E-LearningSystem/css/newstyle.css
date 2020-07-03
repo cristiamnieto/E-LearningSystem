@@ -1,3 +1,33 @@
+/** Menú **/
+header {
+    margin: 0;
+}
+
+header .navbar-inner {
+    margin-top: 0; 
+    width: 90%; 
+    background:#000c3b;
+}
+header .logo-header{
+    margin-right: 10px;
+   
+}
+header .logo-header img {
+    float: left; 
+    width: 20%; 
+    
+}
+header .navbar-inner .container{
+    width: 98%; 
+    margin-bottom: 10px;
+}
+.navbar .nav li a {
+    bottom: 0;
+    
+    
+}
+/** Menú **/
+
 /** Login **/
 .limiter .container-login100 {
     position: relative;
