@@ -15,14 +15,19 @@
   <link href="<?php echo web_root;?>plugins/homepage/assets/css/flexslider.css" rel="stylesheet">
   <link href="<?php echo web_root;?>plugins/homepage/assets/css/style.css" rel="stylesheet">
   <link href="<?php echo web_root;?>plugins/homepage/assets/color/default.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,600,400italic|Open+Sans:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,600,400italic|Open+Sans:400,600,700"
+    rel="stylesheet">
 
   <!-- fav and touch icons -->
   <link rel="shortcut icon" href="assets/ico/favicon.ico">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-57-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144"
+    href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114"
+    href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72"
+    href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed"
+    href="<?php echo web_root;?>plugins/homepage/assets/ico/apple-touch-icon-57-precomposed.png">
 
   <!-- =======================================================
     Theme Name: Lumia
@@ -51,27 +56,57 @@
             <div class="navigation">
               <nav>
                 <div class="logo-header">
-                    <img src="images/Logo Header.png ">
+                  <img src="images/Logo Header.png ">
                 </div>
-                <ul class="nav topnav">                 
-                  <li class="active">                   
-                    <a href="index.php"></i> Inicio </a>
+                <ul class="nav topnav">
+
+                  <li class="active">
+                    <a href="index.php"> Inicio </a>
                   </li>
-                  <li>
-                    <a href="<?php echo web_root; ?>index.php?q=lesson"></i> ¿QUIÉNES SOMOS</a>
+
+                  <li >
+                    <a href="<?php echo web_root; ?>index.php?q=lesson"></i> ¿QUIÉNES SOMOS?</a>
+                    <ul class="submenu">
+                      <li><a href="#"> La institución </a></li>
+                      <li><a href="#"> Nuestras sedes </a></li>
+                      <li><a href="#"> Responsabilidad social </a>
+                          <ul class="submenu">
+                            <li><a href="#"> La institución </a></li>
+                          </ul>
+                      </li>
+                      <li><a href="#"> Derechos pecuniarios </a></li>
+                      <li><a href="#"> Reglamento y estatus </a></li>
+                      <li><a href="#"> Régimen tributario especial</a></li>
+                    </ul>
                   </li>
                   <li>
                     <a href="<?php echo web_root; ?>index.php?q=exercises"></i> INVESTIGACIÓN</a>
                   </li>
                   <li>
                     <a href="<?php echo web_root; ?>index.php?q=download"></i> ESTUDIANTES</a>
-                  </li> 
+                    <ul class="submenu">
+                      <li><a href="#"> Portal Estudiantes </a></li>
+                      <li><a href="#"> Correo Intitucional </a></li>
+                      <li><a href="#"> Servicio al Estudiante </a></li>
+                      <li><a href="#"> Campus Virtual </a></li>
+                      <li><a href="#"> Centro Virtual de Aprendizaje </a></li>
+                      <li><a href="#"> Bienestar</a></li>
+                      <li><a href="#"> Grados</a></li>
+                      <li><a href="#"> Bolsa de Empleos Estudiantes</a></li>
+                      <li><a href="#"> Pagos Inteligentes</a></li>
+                      <li><a href="#"> PQR</a></li>
+                      <li><a href="#"> Practicantes</a></li>
+                      <li><a href="#"> Biblioteca</a></li>
+                      <li><a href="#"> Protocolo de Bioseguridad Covid 19</a></li>
+
+                    </ul>
+                  </li>
                   <li>
                     <a href="<?php echo web_root; ?>index.php?q=download"></i> DOCENTES</a>
-                  </li> 
+                  </li>
                   <li>
                     <a href="<?php echo web_root; ?>index.php?q=download"></i> ADMINISTRATIVOS</a>
-                  </li> 
+                  </li>
                   <li>
                     <a href="logout.php"></i> SALIR</a>
                   </li>
@@ -86,24 +121,25 @@
     </header>
 
     <section id="maincontent">
-      <div class="container"> 
-<?php check_message(); ?>  
-    <?php require_once $content; ?> 
-  </div>   
-</section>
- <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.js"></script>
-  <script src="<?php echo web_root;?>plugins/homepage/assets/js/raphael-min.js"></script>
-  <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.easing.1.3.js"></script>
-  <script src="<?php echo web_root;?>plugins/homepage/assets/js/bootstrap.js"></script>
-  <script src="<?php echo web_root;?>plugins/homepage/assets/js/google-code-prettify/prettify.js"></script>
-  <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.elastislide.js"></script>
-  <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.prettyPhoto.js"></script>
-  <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.flexslider.js"></script>
-  <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery-hover-effect.js"></script>
-  <script src="<?php echo web_root;?>plugins/homepage/assets/js/animate.js"></script>
+      <div class="container">
+        <?php check_message(); ?>
+        <?php require_once $content; ?>
+      </div>
+    </section>
+    <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.js"></script>
+    <script src="<?php echo web_root;?>plugins/homepage/assets/js/raphael-min.js"></script>
+    <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.easing.1.3.js"></script>
+    <script src="<?php echo web_root;?>plugins/homepage/assets/js/bootstrap.js"></script>
+    <script src="<?php echo web_root;?>plugins/homepage/assets/js/google-code-prettify/prettify.js"></script>
+    <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.elastislide.js"></script>
+    <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.prettyPhoto.js"></script>
+    <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery.flexslider.js"></script>
+    <script src="<?php echo web_root;?>plugins/homepage/assets/js/jquery-hover-effect.js"></script>
+    <script src="<?php echo web_root;?>plugins/homepage/assets/js/animate.js"></script>
 
-  <!-- Template Custom JavaScript File -->
-  <script src="<?php echo web_root;?>plugins/homepage/assets/js/custom.js"></script>
+    <!-- Template Custom JavaScript File -->
+    <script src="<?php echo web_root;?>plugins/homepage/assets/js/custom.js"></script>
 
 </body>
+
 </html>
