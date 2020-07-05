@@ -1,0 +1,260 @@
+/** Menú **/
+header {
+    margin: 0;
+}
+
+header .navbar-inner {
+    margin-top: 0; 
+    width: 90%; 
+    background:#000c3b;
+}
+header .logo-header{
+    margin-right: 10px;
+   
+}
+header .logo-header img {
+    float: left; 
+    width: 20%; 
+    
+}
+header .navbar-inner .container{
+    width: 98%; 
+    margin-bottom: 10px;
+}
+.navbar .nav li a {
+    bottom: 0;
+}
+
+/** Submenu **/
+header .navigation .submenu{
+    list-style: none;
+    position: absolute;
+    transform: scale(0);
+    transition: transform .2s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+header .navigation .submenu li{
+    display: flex; 
+    position: relative;
+    color: #000c3b;
+    width: 250px;
+}
+header .navigation .submenu li a{
+    width: 100%;
+    display: flex;  
+    height: 40px;
+    background: #000c3b ;
+    color: #000c3b;     
+    box-shadow:0 0 10px 0px rgba(0, 0, 0, .5);
+    text-decoration: none;
+    padding: 10px;
+    align-items: center;   
+}
+header .navigation  :hover > ul{
+    transform: scale(1);
+    opacity: 1;
+}
+header .navigation  li ul li{
+    position: relative;
+}
+header .navigation li ul li ul {
+    right: -250px;
+    top: 0px;
+}
+
+/** Menú **/
+
+/** Login **/
+.limiter .container-login100 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/chile.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.limiter .container-login100 .wrap-login100{
+    top:0;
+    left:0;
+    width: 90%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.limiter .container-login100 .wrap-login100 #crear a{
+    width: 120px;
+    height: 40px;
+    background:  #1a36e9 ; 
+    border-radius: 24px;
+    border: none;
+    outline: none; 
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.limiter .container-login100 .wrap-login100 #crear a:hover{
+    background:#2e2422;
+}
+.limiter .container-login100 .wrap-login100 .login100-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.limiter .container-login100 .wrap-login100 .login100-form .login100-form-title {
+    color: #fff;
+    font-size: 30px;
+
+}
+.limiter .container-login100 .wrap-login100 .login100-pic img{
+    
+    margin-bottom: 150px;
+    filter: hue-rotate(30deg) brightness(500%);
+}
+.limiter .container-login100 .wrap-login100 .login100-pic img:hover{
+    filter: hue-rotate(10deg) brightness(500%) ;
+   
+}
+/** Login **/
+
+/** Descargas **/
+.contenedor{
+    background-image: url(../images/fondo.png);
+    height: 80vh;
+    display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.contenedor .col-lg-6{
+    margin-top: -100px;
+}
+.col-lg-6{
+    width: 80%;
+    padding: 20px;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .5);
+    height: 200px;
+}
+#video{
+    margin-top:-150px;
+}
+/** Descargas **/
+
+/** Lecciones **/
+.leccion{
+    background-image: url(../images/fondo.png);
+    height: 80vh;
+    display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+    flex-wrap: wrap;  
+}
+.leccion  #col-lg-6{
+    margin-top: -100px;
+    
+}
+/** Lecciones **/
+
+/** Excercises **/
+.exercises {
+    background-image: url(../images/fondo.png);
+    border-bottom: 500px;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.col-lg-12{
+    height: 70vh;
+}
+.exercises .col-lg-12 .table-responsive #example {
+    width: 90%;
+    margin:auto; 
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .5);
+}
+/** Excercises **/
+
+/** Excercises **/
+.contenedor-home { 
+    background-image: url(../images/fondo.png);
+}
+.contenedor-home .home{
+     text-align: left ;
+     width: 80%;       
+     margin: auto;
+}
+.contenedor-img-home{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.home h3{
+    text-align: center;
+}
+.home{
+    padding: 10px;
+}
+/** Excercises **/
+
+/** Footer **/
+.footer-1{
+    bottom: 0;
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to top, #082869 0%, #779ae0 100%, #4468af 100%, #8aa6df 100%);
+    color: #fff;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+.footer-1 .footer-content {
+    width: auto;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row-reverse;
+    
+}
+.footer-1 .footer-content .pp{
+    width: 35em;
+}
+
+.footer-1 .footer-content .hr{
+    border-right-width: 1em;
+    border-top-width: 10px;
+    border-right-width: 1em;
+    border-bottom-width: thick;
+    border-left-width: thin;
+    align-items: flex-end;
+    font-size: 15px;
+    float: right;
+}
+.footer-1 .footer-content .redes-sociales img{
+    width: 45px; 
+    height: 45px;
+    cursor: pointer;
+    scroll-padding-left: 20px;
+    filter: hue-rotate(10deg) brightness(300%);
+    border-radius: 5em;
+    float: right;
+    padding-bottom: 2em;
+    padding-right: 1em;
+
+}
+.foote-1 .footer-content .h3 {
+    text-align: center;
+}
+/** Footer**/
